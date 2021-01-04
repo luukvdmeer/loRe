@@ -20,8 +20,6 @@ lore_says_hello()
 During your working day, reach out whenever you need to! No matter how you feel!
 
 ```r
-lore_says_hi()
-lore_says_bye()
 lore_is_bored()
 lore_is_excited()
 lore_is_frustrated()
