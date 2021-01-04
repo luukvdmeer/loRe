@@ -14,7 +14,7 @@ At the start of your working day, load the package and say hello!
 
 ```r
 library(loRe)
-lore_says_hello()
+lore_says_hi()
 ```
 
 During your working day, reach out whenever you need to! No matter how you feel!
@@ -22,15 +22,15 @@ During your working day, reach out whenever you need to! No matter how you feel!
 ```r
 lore_is_bored()
 lore_is_excited()
-lore_is_frustrated()
-lore_is_happy()
-lore_is_lonely()
-lore_is_sad()
-lore_is_tired()
 lore_is_feeling_stupid()
 lore_is_feeling_ugly()
 lore_is_feeling_useless()
+lore_is_frustrated()
+lore_is_happy()
+lore_is_lonely()
 lore_is_needing_attention()
+lore_is_sad()
+lore_is_tired()
 ```
 
 At the end of your working day, say bye!
