@@ -1,0 +1,14 @@
+Package: loRe
+Type: Package
+Title: Making Lore happy during worktime
+Version: 0.1.0
+Author: Bear
+Maintainer: Bear <beardybear@bearmail.net>
+Description: Making Lore happy during worktime.
+License: GPL-2
+Imports:
+	emo,
+	magick
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
