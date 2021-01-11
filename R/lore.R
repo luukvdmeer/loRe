@@ -62,6 +62,14 @@ lore_is_sad = function() {
   message("Lore, just remember: It is most important that you are loved, and ", emo::ji("bear"), " loves you a lot! ", emo::ji("rabbit"), emo::ji("heart"), emo::ji("bear"), " And he is not the only one! Your family, your friends. They may be far away but they carry you in their hearts forever! ", emo::ji("heart"))
 }
 
+#' Lore is stinky...
+#' @export
+lore_is_stinky = function() {
+  g = magick::image_read(system.file("img/stinky.jpg", package = "loRe"))
+  print(g, info = FALSE)
+  message("Don't worry Lore, it is probably just your imagination! And even if it is true: no matter what, ", emo::ji("bear"), " always loves you! ", emo::ji("rabbit"), emo::ji("heart"), emo::ji("bear"))
+}
+
 #' Lore is tired...
 #' @export
 lore_is_tired = function() {
